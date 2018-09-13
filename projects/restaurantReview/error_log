@@ -1,0 +1,140 @@
+[31-Jul-2018 14:20:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wp71py.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[31-Jul-2018 14:20:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpga3h.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[31-Jul-2018 14:20:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wprhi5.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[31-Jul-2018 14:20:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wp11oi.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[31-Jul-2018 20:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpsecg.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[31-Jul-2018 20:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wp4shd.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[31-Jul-2018 20:38:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpbrtr.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[31-Jul-2018 20:38:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpr9un.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 02:21:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpxram.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 02:21:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wprbks.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 02:21:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpkxpy.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 02:21:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpedol.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 02:55:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpj6e4.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 02:55:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpk7kv.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 02:55:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpb0bn.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 02:55:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpgjcv.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 08:18:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpsjgr.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 08:18:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpoxxk.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 08:18:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpyikq.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 08:18:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpyqlp.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 08:49:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wp4z6n.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 08:49:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpryaw.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 08:49:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpzwiq.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 08:49:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wp5f3b.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 14:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wprizr.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 14:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpz9do.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 14:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpnqy4.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739
+[01-Aug-2018 14:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/skbayuobypcm/public_html/wp-includes/update.php:739
+Stack trace:
+#0 /home/skbayuobypcm/public_html/deleteme.wpldpe.php(16): include_once()
+#1 {main}
+  thrown in /home/skbayuobypcm/public_html/wp-includes/update.php on line 739

@@ -1,0 +1,199 @@
+var restaurants = [
+    {
+        "name": "Zizzi",
+        "place_id": Math.random(),
+        "vicinity": "29 York St",
+        "lat": 51.44754779999999,
+        "long": -0.32712049999997816,
+        "reviews": [{text:"Zizzis is great"}, {text: "Zizzis is rubbish"}],
+        "rating": 4,
+        "visible": false,
+        "website": "https://www.zizzi.co.uk/",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+
+    },
+    {
+        "name": "Ask",
+        "place_id": Math.random(),
+        "vicinity": "29 Heath Road",
+        "lat": 51.4452435,
+        "long": -0.3315307999999959,
+        "reviews": [{text: "I thought Ask was amazing"}, {text: "I hated it"}],
+        "rating": 3,
+        "visible": false,
+        "website": "www.zizzi.com",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+    {
+        "name": "Fox and Hound",
+        "place_id": Math.random(),
+        "vicinity": "14 Staines Road",
+        "lat": 51.45908,
+        "long": -0.4021370000000388,
+        "reviews": [{text: "Okay, but would have preferred something else"}, {text: "Horrid"}],
+        "rating": 5,
+        "visible": true,
+        "website": "www.zizzi.com",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+    {
+        "name": "Greasy Spoon",
+        "place_id": Math.random(),
+        "vicinity": "4 Hanworth Road",
+        "lat": 51.45775570000001,
+        "long": -0.3718194000000494,        
+        "reviews": [{text: "So-so. If you have nothing else planned"}, {text: "Mneh"}],
+        "rating": 2,
+        "visible": true,
+        "website": "www.zizzi.com",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+    {
+        "name": "El Pinchos",
+        "place_id": Math.random(),
+        "vicinity": "51 Church Street",
+        "lat": 51.43342,
+        "long": -0.3918194000000494,        
+        "reviews": [{text: "Rubbish. Will never go back"}, {text: "Really awful. Do not go there."}],
+        "rating": 1,
+        "visible": true,
+        "website": "http://www.pincho.co.uk/",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+
+    {
+        "name": "The Old Goat",
+        "place_id": Math.random(),
+        "vicinity": "128 Hampton Road",
+        "lat": 51.444929,
+        "long": -0.3818194000000494,        
+        "reviews": [{text: "Excellent - food was outstanding"}, {text: "Great - won't be long before I go there again!"}],
+        "rating": 5,
+        "visible": true,
+        "website": "https://www.zizzi.co.uk/",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+]
+
+
+var restaurantsPlaces = [
+    {
+        "name": "Zizzi",
+        "place_id": Math.random(),
+        "vicinity": "29 York St",
+        "lat": 51.44754779999999,
+        "long": -0.32712049999997816,
+        "reviews": [{text:"Zizzis is great"}, {text: "Zizzis is rubbish"}],
+        "rating": 4,
+        "visible": false,
+        "website": "https://www.zizzi.co.uk/",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+
+    },
+    {
+        "name": "Ask",
+        "place_id": Math.random(),
+        "vicinity": "29 Heath Road",
+        "lat": 51.4452435,
+        "long": -0.3315307999999959,
+        "reviews": [{text: "I thought Ask was amazing"}, {text: "I hated it"}],
+        "rating": 3,
+        "visible": false,
+        "website": "www.zizzi.com",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+    {
+        "name": "Fox and Hound",
+        "place_id": Math.random(),
+        "vicinity": "14 Staines Road",
+        "lat": 51.45908,
+        "long": -0.4021370000000388,
+        "reviews": [{text: "Okay, but would have preferred something else"}, {text: "Horrid"}],
+        "rating": 5,
+        "visible": true,
+        "website": "www.zizzi.com",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+    {
+        "name": "Greasy Spoon",
+        "place_id": Math.random(),
+        "vicinity": "4 Hanworth Road",
+        "lat": 51.45775570000001,
+        "long": -0.3718194000000494,        
+        "reviews": [{text: "So-so. If you have nothing else planned"}, {text: "Mneh"}],
+        "rating": 2,
+        "visible": true,
+        "website": "www.zizzi.com",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+    {
+        "name": "El Pinchos",
+        "place_id": Math.random(),
+        "vicinity": "51 Church Street",
+        "lat": 51.43342,
+        "long": -0.3918194000000494,        
+        "reviews": [{text: "Rubbish. Will never go back"}, {text: "Really awful. Do not go there."}],
+        "rating": 1,
+        "visible": true,
+        "website": "http://www.pincho.co.uk/",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+
+    {
+        "name": "The Old Goat",
+        "place_id": Math.random(),
+        "vicinity": "128 Hampton Road",
+        "lat": 51.444929,
+        "long": -0.3818194000000494,        
+        "reviews": [{text: "Excellent - food was outstanding"}, {text: "Great - won't be long before I go there again!"}],
+        "rating": 5,
+        "visible": true,
+        "website": "https://www.zizzi.co.uk/",
+        "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"]
+    },
+]
+
+
+var restaurants3stars = [
+
+]
+
+var restaurants5stars = [
+
+]
+
+for(i in restaurantsPlaces) {
+    if(restaurantsPlaces[i]>=3) {
+        restaurants3stars.unshift(restaurantsPlaces[i]);
+    }
+}
+
+for(i in restaurantsPlaces) {
+    if(restaurantsPlaces[i]>=4.5) {
+        restaurants5stars.unshift(restaurantsPlaces[i]);
+    }
+}
+
+
+var restaurants1 = [
+
+]
+
+var restaurants2 = [
+
+]
+
+var restaurants3 = [
+
+]
+
+var restaurants4 = [
+
+]
+
+var restaurants5 = [
+
+]
+
+
+

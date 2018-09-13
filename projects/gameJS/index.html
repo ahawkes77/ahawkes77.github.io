@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel=stylesheet href="stylesheet.css">
+<html>
+    <head>
+        <title>Game</title>
+
+    </head>
+
+    <body>
+
+        <!--Instruction buttons-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <button id="rules">Rules of the Game</button>
+                </div>
+                <div class="col-4">
+                    <button id="loadGame">Load Game</button>
+                </div>
+                <div class="col-4">
+                    <button id="reload">Reload Game</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!---->
+        <div class = "container" id="mainInfo">
+            <div class="row">
+                <div class="col-3">   
+                    <section class="startUpButtons">
+                        <button id="drawWeapons">Draw Weapons</button>
+                        <button id="drawPlayers">Draw Players</button>
+                    </section>
+                    <section class="directionButtonsP1">
+                        <button class="direction" id="up">Up</button>
+                        <br>
+                        <button class="direction" id="left">Left</button>
+                        <button class="direction" id="right">Right</button>
+                        <img src="images/player1.png" id="p1Icon" alt="p1Icon">
+                        <br>
+                        <button class="direction" id="down">Down</button>
+                    </section>
+                    <section class="directionButtonsP2">
+                        <button class="direction2" id="up2">Up</button>
+                        <br>
+                        <button class="direction2" id="left2">Left</button>
+                        <button class="direction2" id="right2">Right</button>
+                        <img src="images/player2.png" id="p2Icon" alt="p2Icon">
+                        <br>
+                        <button class="direction2" id="down2">Down</button>
+                    </section>
+                    <section class="fightButtons">
+                        <button id="fightYesP1">Defend!</button>
+                        <button id="fightNoP1">Don't defend!</button>
+                    </section>
+                </div>
+
+                <div class="col-6" id="canvasDiv">
+                    <canvas id="myCanvas" width="1000" height="1000">
+                        <img src="images/bomb.svg" id="bomb" alt="bomb">
+                        <img src="images/dagger.jpg" id="dagger" alt="dagger">
+                        <img src="images/grenade.jpg" id="grenade" alt="grenade">
+                        <img src="images/gun.png" id="gun" alt="gun">
+                        <img src="images/player1.png" id="John" alt="john">
+                        <img src="images/player2.png" id="Jane" alt="jane">
+                        <img src="images/greySquare.jpg" id="greySquare" alt="grey square">
+                        <img src="images/Health-Pack.jpg" id="healthPack" alt="health pack">
+                        <img src="images/player1inactive.jpg" id="p1inactive" alt="player 1 inactive">
+                        <img src="images/player2inactive.jpg" id="p2inactive" alt="player 2 inactive">
+                    </canvas>
+                    <section id="gameOver">Game Over!!!</section>
+
+                </div>
+
+                <div class="col-3">
+                    <section id="pOneStatus">
+                        <h5>Player One Status</h5>
+                        <p id=p1Name></p>
+                        <p id=p1Weapon></p>
+                        <p id=p1WeaponValue></p>
+                        <p id=p1Health></p>
+                        <hr>
+                        <p id=p1Score></p>
+                    </section> 
+                    <section id="pTwoStatus">
+                        <h5>Player Two Status</h5>
+                        <p id=p2Name></p>
+                        <p id=p2Weapon></p>
+                        <p id=p2WeaponValue></p>
+                        <p id=p2Health></p>
+                        <hr>
+                        <p id=p2Score></p>
+                    </section>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+
+    <script src = "javascript/jquery-3.2.1.min.js"></script>
+    <script src = "javascript/setup.js"></script>
+    <script src="javascript/players.js"></script>
+    <script src="javascript/weapons.js"></script>
+    <script src="javascript/buttons.js"></script>
+    <script src = "javascript/script.js"></script>
+
+
+</html>

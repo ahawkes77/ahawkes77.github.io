@@ -1,0 +1,314 @@
+body {
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+#restaurants {
+    background-color: white;
+    float: left;
+}
+
+#intro {
+    font-weight: bold;
+}
+
+.card {
+    display: none;
+    float: left;
+}
+
+#infoContent {
+    width: 250px;
+    height: 140px;
+    overflow: hidden;
+}
+
+svg {
+    width: 10%;
+}
+
+
+#street-view {
+    width: 500px;    
+    height: 500px;
+    display: none;
+}
+
+.header {
+    margin-right: 20%;
+    display: none;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.welcomeHeading, .welcomePara {
+    color: black;
+    margin: 0;
+}
+
+
+.navigation {
+    display: none;
+}
+
+
+.navbarContainer {
+    background-color: #FF6E27;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-align: left;
+    background-color: #FF6E27;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    text-align: center;
+    background-color: #FF6E27;
+    color: #991766;
+    padding-top: 5px;
+    font-family: 'merienda';
+    text-shadow: 4px 4px 4px white;
+}
+
+.mapSidebar {
+    display: none;
+}
+
+
+#searchValue2 {
+    width: 20%;
+    height: 5%;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    #searchValue2 {
+        width: 100%;
+        display: block;
+    } 
+}
+
+#searchValue3 {
+    z-index: 1000000000000000000000000000000000;
+}
+
+@media only screen and (max-width: 768px) {
+    .searchTools3 {
+        display: none;
+    }
+}
+
+
+.submitChangeLocation {
+    margin-left: 20px;
+}
+
+.mainImage {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+    float: right;
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+}
+
+.reviewIcon{
+    width: 100%;
+    height: 70px;
+    border: none;
+    float: left;
+}
+
+.cardFrontPage {
+    position: absolute;
+    width: 80%;
+    margin-top: 25%;
+    left: 60%;
+    opacity: .9;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .cardFrontPage {
+        margin-top: 0%;
+        padding-top: 100%;
+        height: 100vh;
+        width: 100vw;
+        left: 0%;
+        opacity: .8;
+    }    
+}
+
+
+.titleFrontPage {
+    text-align: center;
+    font-family: 'Merienda';
+    font-size: 50px;
+    color: #FF6E27;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+.sidebarPanel {
+    background-color: white; 
+    color: black; 
+    border: black solid 1px;
+    position: absolute;
+    right: 0px;
+    display: none;
+    position: fixed;
+    width: 350px;
+    margin-left: 0px;
+    overflow: auto;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000000;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebarPanel {
+        width: 100%;
+    } 
+}
+
+.togglePane {
+    display: none;
+    position: absolute;
+    right: 350px;
+    width: 40px;
+    background-color: #FF6E27;
+    height: 14vh;
+    z-index: 10000000;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .togglePane {
+        bottom: 0px;
+        height: 8vh;
+        right: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+        z-index: 1000000000000000;
+    } 
+}
+
+.togglePane2 {
+    display: none;
+    position: absolute;
+    right: 0px;
+    width: 40px;
+    background-color: #FF6E27;
+    height: 14vh;
+    z-index: 10000;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .togglePane2 {
+        position: absolute;
+        bottom: 0px;
+        height: 8vh;
+        width: 100%;
+    } 
+}
+
+.btn-outline-light {
+    margin-left: 30%;
+}
+
+.btn, .form-control {
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+[id^="heading"]:hover {
+    background-color: #27bbff;
+    cursor: pointer;
+}
+
+
+
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+}
+
+.star-rating .fa-star{color: yellow;}
+
+
+textarea {
+    width: 100%;
+}
+
+
+h6 {
+    font-size: 16px;
+}
+
+#addressinfo {
+    font-size: 14px;
+}
+
+.normalFont {
+    font-style: normal;
+}
+
+
+.reviewBarButton {
+    width: 100%;
+    font-size: 14px;
+    color: white;
+}
+
+.reviewBarButton:hover {
+    background-color: #991766;
+    color: white;
+}
+
+
+hr {
+    border-width: 3px;
+    border-color: black;
+}
+
+.modal-content {
+    z-index: 100000000000000000;
+}
+
+.dropdown-menu {
+    font-size: .9rem;
+}
+
+
+.magnifying, .submitReview {
+    background-color: #FF6E27;
+    color: white;
+    border-right: 1px solid black;
+}
+
+.magnifying:hover, .submitReview:hover {
+    background-color: #27bbff;
+    color: black;
+}
+
+

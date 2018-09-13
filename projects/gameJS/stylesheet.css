@@ -1,0 +1,164 @@
+/**Code to set column widths as 1/12 of a page**/
+
+* {box-sizing: border-box;}
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/**Code to make text responsive for smaller screens; make sure that in html, there is the <meta name="viewport" content="width=device-width, initial-scale=1.0">**/
+
+@media only screen and (max-width: 750px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: chartreuse;
+}
+
+#myCanvas {
+    float: left;
+    display: none;
+    align-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+#pOneStatus, #pTwoStatus {
+    background-color: lightblue;
+    border: black 2px solid;
+    padding: 5px;
+    display: none;
+    width: 90%;
+    margin-top: 10%;
+}
+
+#pTwoStatus {
+    margin-top: 1%;
+}
+
+#pOneStatus {
+    float: left;
+}
+
+#pTwoStatus {
+    float: left;
+}
+
+
+/*buttons generally*/
+button {
+    background: yellow;
+    color: black;
+    border-radius: 45px;
+    padding: 10px;
+    width: 50%;
+}
+
+button:hover {
+    background: grey;
+    color: black;
+}
+
+/*draw weapons and draw players buttons*/
+
+.startUpButtons {
+    margin-top: 10%;
+}
+#drawWeapons, #drawPlayers {
+    display: none;
+    background: silver;
+}
+
+/*direction buttons*/
+
+.direction, .direction2 {
+    background: blue;
+    color: white;
+    width: 20%;
+    display: none;
+    margin-left: 15%
+}
+
+#up, #down, #up2, #down2 {
+    margin-left: 33%;
+}
+
+#up, #up2 {
+    margin-top: 10%;
+}
+
+.directionButtonsP2 {
+    margin-top: 40%;
+}
+
+/*fight buttons*/
+
+.fightButtons {
+    display:none;
+    margin-top: 10%;
+}
+#fightYesP1, #fightYesP2 {
+    background: red;
+    color: black;
+    width: 40%;
+}
+
+#fightNoP1, #fightNoP2 {
+    background: yellow;
+    color: black;
+    width: 40%;
+}
+
+/*weapon buttons*/
+
+.weaponButtons {
+    display:none;
+    margin-top: 10%;
+}
+
+#weaponYesP1, #weaponYesP2 {
+    background-color: green;
+    color: white;
+    width: 40%;
+}
+
+#weaponNoP1, #weaponNoP2 {
+    background-color: red;
+    color: black;
+    width: 40%;
+}
+
+#p1Score, #p2Score {
+    font-weight: bold;
+}
+
+#p1Icon, #p2Icon {
+    height: 50px;
+    float: right;
+    display: none;
+}
+
+#gameOver {
+    font-size: 150px;
+    text-align: center;
+    font-family: monospace;
+    color: blue;
+    display: none;
+}
