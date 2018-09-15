@@ -7,7 +7,7 @@
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
-  "homepage": "https://taniarascia.github.io/react-tutorial",
+  "homepage": "https://ahawkes77.github.io/projects/ReactDB/public.index.html",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
