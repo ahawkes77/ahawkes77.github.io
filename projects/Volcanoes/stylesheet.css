@@ -1,0 +1,16 @@
+/* html, body, #googft-mapCanvas {
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    width: 900px;
+} */
+
+#googft {
+    float: right;
+    position: absolute;
+    top: 0px;
+}
+
+#text {
+    float: left;
+}
