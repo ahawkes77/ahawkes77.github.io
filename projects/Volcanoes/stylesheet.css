@@ -1,15 +1,15 @@
-/* html, body, #googft-mapCanvas {
-    height: 600px;
+html, body, #googft-mapCanvas {
+    height: 100vh;
     margin: 0;
     padding: 0;
-    width: 900px;
-} */
+    width: 100%;
+}
 
-#googft {
-    float: right;
+/* #googft {
+    /* float: right; */
     position: absolute;
     top: 0px;
-}
+} */
 
 #text {
     float: left;

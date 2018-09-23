@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport"/>
-<title>Meteorite fall  - Google Fusion Tables</title>
+<title>Meteorite fall</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="stylesheet.css">
 
@@ -23,7 +23,11 @@
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(49.53021910605399, 15.985534147308272),
       zoom: 4,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      streetViewControl: false,
+      fullscreenControl: false,
+      mapTypeControl: false,
+      scaleControl: false
     });
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('googft-legend-open'));
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('googft-legend'));
@@ -65,17 +69,25 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-9">
+        <div class="col-4">
+            <div id="text">
+              <h3>Meteorites in Europe</h3>
+              <p>A map of significant meteorites recorded in Europe since 862. Click on the markers to learn more about the meteorite. Drag the map to go further afield!</p>
+              <h6>Fun facts about meteorites</h6>
+              <ul>
+                <li>Millions of meteoroids travel through Earth’s atmosphere each day.</li>
+                <li>When a meteor encounters our atmosphere and is vaporized, it leaves behind a trail. That “burning” meteoroid is called a meteor.</li>
+                <li>The appearance of a number of meteors occurring in the same part of the sky over a period of time is called “meteor shower”.</li>
+                <li>Many meteor showers are associated with comets, which leave behind debris as they orbit through the solar system.  Showers occur when Earth’s orbit crosses the path of a comet’s orbit.</li>
+                <li>The composition of meteorites tells us where the meteoroid existed in its parent body.  An iron or stony iron was close to the core of an asteroid, while a stony object was closer to the surface.</li>
+              </ul>
+            </div>
+            </div>
+      <div class="col-8">
   <div id="googft-mapCanvas"></div>
 </div>
- <div class="col-3">
-  <div id="text">
-    <h1>Meteorites in Europe</h1>
-    <p>A map of meteorites which have been recorded in Europe since 862.</p>
-  </div>
-  </div>
 </div>
 </div>
 </body>
