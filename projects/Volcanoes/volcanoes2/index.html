@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"/>
+<title>Distribution of volcano types by country</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+        <div class="col-6 mt-3" id="explanation">
+            <h3>Distribution of volcano types</h3>
+            <p>This is an interactive graph which shows the distribution of volcano types according to the country where they are found.</p>
+            <p>Have a play around - you can click on countries, types of volcanoes. You can drag parts of the graph out to make it clearer if you need.</p>
+            <ul>
+              <li id="caldera">Caldera</li>
+              <li id="complexVolcano">Complex Volcano</li>
+              <li id="shield">Shield</li>
+              <li id="stratovolcano">Stratovolcano</li>
+              <li id="volcanicField">Volcanic Field</li>
+            </ul>
+            <p><a href="../index.html">Take me back to the main page</a></p>
+            <hr>
+            <p id="furtherReading"></p>
+            <img src="images/caldera.jpg" id='one'>
+            <img src="images/complex.jpg" id='two'>
+            <img src="images/shield.jpg" id='three'>
+            <img src="images/stratovolcano.jpg" id='four'>
+            <img src="images/volcanic_field.jpg" id='five'>
+          </div>
+
+ <div class="col-6">
+  <iframe id="chart" width="700" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;viz=GVIZ&amp;t=GRAPH&amp;gc=true&amp;gd=true&amp;sdb=1&amp;rmax=100000&amp;q=select+col1%2C+col2%2C+col5+from+1OVPSJqo-VjWIY1sL1UQhK00Ek67Ku6GnH1G4aApx+where+col5+%3E%3D+2000+and+col5+%3C%3D+6887+and+col2+in+(&#39;Caldera&#39;%2C+&#39;Complex+Volcano&#39;%2C+&#39;Shield&#39;%2C+&#39;Stratovolcano&#39;%2C+&#39;Volcanic+Field&#39;)&amp;qrs=+and+col1+%3E%3D+&amp;qre=+and+col1+%3C%3D+&amp;qe=&amp;uiversion=2&amp;state=%7B%22ps%22%3A%221_3_z_7_6_p_-s_9_c_u_a_1a_10_4_1o_-a_8_9_-1h_0_3_4_g_1q_s_o_19_1o_n_t_15_5_7_-7_14_1_i_15_1y_7_u_1d_-p_18_8_-j_c_-i_u_11_i_1a_f_-y_-h_l_28_f_w_27_-5_1a_1v_16_1_-j_-1o_x_-l_-q_19_-c_-8_k_-e_d_q_28_r_m_1v_-z_17_-8_-o_d_2j_a_16_2c_-m_2_4_1m_13_-b_1d_12_-r_-1_10_-v_c_z_2v_4_y_2p_10_v_2r_-j_t_-y_r_s_2k_-10_r_27_-1e_p_27_-23_j_33_m_i_-1w_-1s_h_34_-8_e_-z_1a_b_2y_1d_7_-22_-1b_%22%2C%22cx%22%3A44.45133753720569%2C%22cy%22%3A-8.97306296620845%2C%22sw%22%3A1632.2906351314086%2C%22sh%22%3A560.0636039277069%2C%22z%22%3A1.295029804079525%7D&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=700&amp;height=500"></iframe>
+</div>
+
+</div>
+</div>
+</body>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbr0pznbPj9ZTDiGVroRpR4d6UO_Pbrpw&callback=initMap"></script>
+</html>
+
+
