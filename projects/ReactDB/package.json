@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
-  "homepage": "https://ahawkes77.github.io/projects/ReactDB/public.index.html",
+  "homepage": "https://ahawkes77.github.io/projects/ReactDB",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
