@@ -5,3 +5,20 @@ body {
 .frontPage {
     text-shadow: 2px 2px white;
 }
+
+.portfolioBox {
+    background-color: #1c7c9a;
+    text-align: center;
+    color: white;
+    height: 30vh;
+    width: 100%;
+    transition: ease 2s;
+    margin-bottom: 5%;
+}
+
+.portfolioBox:hover {
+    background-color: blanchedalmond;
+    color: black;
+    height: 25vh;
+    width: 95%;
+}
