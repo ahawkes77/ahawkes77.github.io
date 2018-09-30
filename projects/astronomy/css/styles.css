@@ -25,6 +25,12 @@ body {
     height: 60vh;
     border: 2px solid white;
   }
+
+  @media only screen and (max-width: 600px) {
+    img {
+      height: 40vh;
+    }
+  }
   
   #info {
     height: 60vh;
@@ -32,4 +38,9 @@ body {
     padding-right: 10px;
     text-align: justify; 
   }
-  
+
+  @media only screen and (max-width: 600px) {
+    #info {
+      height: 40vh;
+    }
+  }  
