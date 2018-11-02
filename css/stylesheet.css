@@ -22,3 +22,9 @@ body {
     height: 25vh;
     width: 95%;
 }
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
